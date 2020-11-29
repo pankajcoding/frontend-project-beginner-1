@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="left-sidebar">
+        <div class="notes-list">
+          <div class="note-link">
+            <div class="note-link--title">
+              Article
+            </div>
+            <div class="note-link--body">
+              Lorem ipsum, dolor sit amet...
+            </div>
+          </div>
+          <div class="note-link">
+            <div class="note-link--title">
+              Meetup Talk
+            </div>
+            <div class="note-link--body">
+              Lorem ipsum, dolor sit ..
+            </div>
+          </div>
+        </div>
+        <div class="btn new-note-btn">
+          + New Note
+        </div>
+      </div>
+      <div class="note-editor">
+        <input
+          class="heading-input no-outline"
+          type="text"
+          placeholder="Heading"
+        />
+        <textarea
+          class="body-input no-outline"
+          placeholder="Note..."
+        ></textarea>
+        <div type="save" class="save-btn btn">Save</div>
+      </div>
+    </div>
+  </body>
+
+  <script src="js/script.js"></script>
+</html>
