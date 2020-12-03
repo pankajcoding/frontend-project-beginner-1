@@ -27,7 +27,8 @@ body {
   transition: all 0.3s;
   border-radius: 2px;
 }
-.note-link:hover {
+.note-link:hover,
+.active.note-link {
   transform: scale3d(1.05, 1.05, 1.05);
   background-color: #478efa;
   color: #000;
@@ -35,15 +36,19 @@ body {
 .note-link--title {
   font-size: 1.1em;
   font-weight: 600;
+  transition: all 0.3s;
 }
-.note-link:hover .note-link--title {
+.note-link:hover .note-link--title,
+.active.note-link .note-link--title {
   color: #fff;
 }
 .note-link--body {
   display: inline;
   color: #7d8088;
+  transition: all 0.3s;
 }
-.note-link:hover .note-link--body {
+.note-link:hover .note-link--body,
+.active.note-link .note-link--body {
   color: #fff;
 }
 
